@@ -15,7 +15,7 @@ if not isfolder("Neverblox/"..tostring(game.GameId)) then
  makefolder("Neverblox/"..tostring(game.GameId))
 end
 --vars
-local library,menu,tabholder = loadstring(game:HttpGet("https://raw.githubusercontent.com/sj0rs1/Neverblox/main/library.lua"))()
+local library,menu,tabholder = loadstring(game:HttpGet("https://github.com/DeMafioso/Neverblox/blob/main/library.lua"))()
 local userInputService = game:GetService("UserInputService")
 local replicatedStorage = game:GetService("ReplicatedStorage")
 local runService = game:GetService("RunService")
